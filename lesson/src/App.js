@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import PersonList from './Components/PersonList';
+import PersonInput from './Components/PersonInput';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
             Welcome to React.
           </p>
         </header>
+        <PersonInput />
         <PersonList />
       </div>
     );
